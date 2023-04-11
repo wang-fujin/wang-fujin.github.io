@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>Download Page</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<h1>Welcome to the Download Page</h1>
+	<p>Click the button below to download the data:</p>
+	<button onclick="download()">Download</button>
+	
+	<script>
+		function download() {
+			// Replace the URL below with the URL of your data file
+			const url = "http://example.com/data.txt";
+			const link = document.createElement("a");
+			link.download = "data.txt";
+			link.href = url;
+			document.body.appendChild(link);
+			link.click();
+			document.body.removeChild(link);
+		}
+	</script>
 </body>
 </html>
