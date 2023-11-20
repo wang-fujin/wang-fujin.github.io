@@ -344,7 +344,7 @@ p {
 
 /* 添加自定义样式来调整表单和文字大小 */
 .tm-bg-citation{
-  background-color: rgba(255, 255, 205, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   width: 100% !important;
   max-width: 1500px;
  padding: 20px;
