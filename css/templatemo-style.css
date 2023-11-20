@@ -341,3 +341,19 @@ p {
     padding: 25px;
   }
 }
+
+/* 添加自定义样式来调整表单和文字大小 */
+.tm-contact-form {
+    font-size: 18px; /* 调整表单的字体大小 */
+    padding: 20px; /* 添加一些内边距，增加表单的大小 */
+}
+
+.tm-title {
+    font-size: 22px; /* 调整标题的字体大小 */
+    margin-bottom: 10px; /* 添加一些下边距 */
+}
+
+.tm-citation {
+    font-size: 16px; /* 调整链接文字的字体大小 */
+}
+
