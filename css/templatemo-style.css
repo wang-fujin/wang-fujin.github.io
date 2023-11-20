@@ -240,7 +240,7 @@ p {
 
 #tmContactForm {
   width: 100%;
-  max-width: 680px;
+  max-width: 1680px;
   padding: 45px 45px 30px;
   margin-bottom: 95px;
 }
@@ -343,6 +343,15 @@ p {
 }
 
 /* 添加自定义样式来调整表单和文字大小 */
+.tm-bg-citation{
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100% !important;
+  max-width: 1500px;
+ padding: 20px;
+
+}
+
+
 .tm-contact-form {
     font-size: 18px; /* 调整表单的字体大小 */
     padding: 20px; /* 添加一些内边距，增加表单的大小 */
